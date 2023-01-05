@@ -1,0 +1,33 @@
+h1,h2,h3,h4,h5,h6,body,ul,p,form,dl,dd,dt{
+    padding: 0;
+    margin: 0;
+}
+
+i,s,strong{
+    font-style: normal;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited{
+    color: #000;
+}
+img{
+    border: none;
+    display: block;
+}
+
+body{
+    width: 100%;
+    min-width: 320px;
+    /* max-width: 1200px;推荐不给 */
+    /* margin: 0 auto;和max-width一起用 */
+    overflow-x: hidden;/*沿着x轴的溢出被忽略*/
+}

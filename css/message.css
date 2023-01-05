@@ -1,0 +1,196 @@
+/********************全局 start**********************/
+body{
+    background-color: rgb(245,245,245);
+    margin-bottom: 100px;
+}
+
+#one{
+    width: 100%;
+    height: 100px;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+/********************全局 end**********************/
+/********************header start**********************/
+#header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(23,178,180);
+    z-index: 9;
+    display: flex;
+    
+}
+
+#header .header_left{
+    width: 90%;
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+}
+
+#header .header_left div{
+    cursor: pointer;
+    width: 21%;
+    text-align: center;
+}
+
+#header .header_left div:nth-child(2){
+    font-size: 25px;
+    color: rgb(157,231,233);
+    font-weight: lighter;
+}
+
+#header .header_right{
+    width: 10%;
+    margin:  0 auto;
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+/********************header end**********************/
+/*********************snav start***********************/
+#snav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(230, 227, 227);
+}
+
+#snav div{
+    width: 18%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(98,98,98);
+    letter-spacing: 1px;
+}
+
+#snav div:nth-child(1){
+    font-weight: 600;
+    color: rgb(94,94,94);
+}
+
+#snav div svg{
+    margin :0 0 -3px -10px;
+}
+/***********************snav end**********************/
+/***********************main start**********************/
+
+#main ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main ul li{
+    width: 100%;
+    height: 120px;
+    display: flex;
+
+}
+
+#main ul li .li_left{
+    width: 127px;
+    font-size: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+#main ul li .li_right{
+    width: 85%;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+}
+
+#main ul li .li_right p{
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+#main ul li .li_right span{
+    color: rgb(82,82,82);
+}
+
+#main ul li .li_time{
+    font-size: 14px;
+    width: 15%;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: lighter;
+    color: rgb(183, 181, 181);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/***********************main end**********************/
+/********************底部栏 start**********************/
+#bnav{
+    width: 100%;
+    border-top: 1px solid rgb(222, 214, 214);
+    background-color: rgb(255,255,255);
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+#bnav ul{
+    display: flex;
+    box-sizing: border-box;
+}
+
+#bnav li{
+    width: 25%;
+    text-align: center;
+}
+
+#bnav svg{
+    font-size: 40px;
+}
+
+#bnav p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+/********************底部栏 end**********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

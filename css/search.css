@@ -1,0 +1,103 @@
+/********************全局 start**********************/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+body {
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+/********************全局 end**********************/
+/********************header start**********************/
+header {
+    width: 95vw;
+    line-height: 10vw;
+    margin: 0 auto;
+}
+
+header form {
+    display: flex;
+    justify-content: space-between;
+}
+
+header form .left {
+    width: 80vw;
+    height: 7vw;
+    margin: auto 0;
+    line-height: 7vw;
+    border-radius: 3.5vw;
+    background-color: rgb(245, 245, 245);
+}
+
+header form .left .icon {
+    font-size: 4.2667vw;
+    color: rgb(184, 184, 184);
+    margin-left: 2.6667vw;
+}
+
+header form .left input {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    width: 60vw;
+    height: 4vw;
+    font-size: 3.5vw;
+    color: rgb(184, 184, 184);
+}
+
+header form .right {
+    width: 15vw;
+    text-align: center;
+    font-size: 4.2667vw;
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+}
+
+/********************header end**********************/
+/********************nav start**********************/
+nav {
+    width: 95vw;
+    line-height: 10vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+nav div:nth-child(1) {
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: center;
+}
+
+nav div:nth-child(2) {
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(184, 184, 184);
+}
+
+/********************nav end**********************/
+/********************main start**********************/
+main {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+main .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .list li {
+    padding: 5px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    font-size: 3.5vw;
+    margin: 1.6667vw 1.3333vw;
+}
+
+/********************main end**********************/

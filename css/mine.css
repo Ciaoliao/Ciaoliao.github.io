@@ -1,0 +1,340 @@
+/********************全局 start**********************/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(245,245,245);
+    margin-bottom: 100px;
+
+}
+
+
+#one{
+    width: 100%;
+    height: 60px;
+}
+/********************全局 end**********************/
+/********************header start**********************/
+#header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(23,178,180);
+    z-index: 9;
+}
+
+#header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header ul li{
+    width: 6%;
+    margin-left: 10px;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#header svg{
+    font-size: 30px;
+    color: #fff;
+}
+
+#header #block{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(23,178,180);
+    float: left;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    display: none;
+}
+
+/********************header end**********************/
+/********************snav start**********************/
+#snav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(23,178,180);
+}
+
+#snav img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+#snav .snav_left{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+
+}
+
+#snav .snav_left .student{
+    width: 40px;
+    height: 15px;
+    font-size: 12px;
+    position: absolute;
+    background-color: rgb(23,178,180);
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    bottom: 0;
+    right: 15px;
+    left: 15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+
+#snav .snav_right{
+    float: left;
+    width: 200px;
+    height: 80px;
+    position: relative;
+    margin-left: 10px;
+}
+
+#snav .snav_right i{
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+
+#snav .snav_right span{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#snav .snav_right svg{
+    font-size: 18px;
+}
+
+
+/********************snav end**********************/
+/********************snav_1 start**********************/
+#snav_1{
+    height: 90px;
+    background-color: rgb(23,178,180);
+    color: #fff;
+}
+
+#snav_1 ul{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+
+#snav_1 ul li{
+    width: 25%;
+    text-align: center;
+    margin: auto;
+}
+
+#snav_1 ul li i{
+    font-size: 35px;
+}
+
+#snav_1 ul li p{
+    font-size: 14px;
+}
+/********************snav_1 end**********************/
+/********************content_1 start**********************/
+#content_1{
+    width: 95%;
+    height: 50px; 
+    background-color: #fff;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+}
+
+#content_1 ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#content_1 ul li{
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+#content_1 ul li i{
+    font-size: 14px;
+    color: rgb(190,190,190);
+}
+
+#content_1 ul li svg{
+    color: rgb(225,164,123);
+    font-size: 18px;
+}
+
+#content_1 ul li:nth-child(2) svg{
+    font-size: 25px;
+}
+
+
+/********************content_1 end**********************/
+/********************content_2 start**********************/
+#content_2{
+    width: 95%;
+    height: 164px; 
+    background-color: #fff;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+    padding: 8px 0;
+}
+
+#content_2>p{
+    font-size: 20px;
+    margin: 5px 20px;
+}
+
+#content_2 ul{
+    display: flex;
+    height: 123.6px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10px;
+    align-items: stretch;
+}
+
+#content_2 ul li{
+    width: 25%;
+    margin:auto 0;
+    letter-spacing: 1px;
+}
+
+#content_2 ul li svg{
+    font-size: 50px ;
+}
+
+#content_2 ul li p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#content_2 ul li i{
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(190,190,190);
+}
+
+/********************content_2 end**********************/
+/********************content_3 start**********************/
+#content_3{
+    width: 95%;
+    height: 305px; 
+    background-color: #fff;
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+    padding: 8px 0;
+}
+
+#content_3>p{
+    font-size: 20px;
+    margin: 5px 20px;
+}
+
+#content_3 ul{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+#content_3 ul li{
+    width: 25%;
+    margin: 10px 0;
+    position: relative;
+}
+
+#content_3 ul li i{
+    font-size: 14px;
+}
+
+#content_3 ul li svg{
+    font-size: 40px;
+    color: #333;
+}
+
+#content_3 .dot{
+    position:absolute;
+    top: 0;
+    left: 65%;
+    font-size: 12px;
+}
+/********************content_3 end**********************/
+/********************footer start**********************/
+#footer{
+    width: 95%;
+    height: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#footer p{
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(190,190,190);
+}
+
+
+/********************footer end**********************/
+/********************底部栏 start**********************/
+#bnav{
+    width: 100%;
+    border-top: 1px solid rgb(222, 214, 214);
+    background-color: rgb(255,255,255);
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+
+#bnav ul{
+    display: flex;
+    box-sizing: border-box;
+}
+
+#bnav li{
+    width: 25%;
+    text-align: center;
+}
+
+#bnav svg{
+    font-size: 40px;
+}
+
+#bnav p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+
+/********************底部栏 end**********************/

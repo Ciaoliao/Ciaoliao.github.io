@@ -1,0 +1,91 @@
+/********************全局 start**********************/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(245,245,245);
+    margin-bottom: 100px;
+}
+/********************全局 end**********************/
+/********************top start*********************/
+#top{
+    line-height: 50px;
+    display: flex;
+    background-color: #fff;
+}
+
+#top div{
+    width: 60px;
+    font-size: 45px;
+    text-align: center;
+}
+
+#top i{
+    font-weight: bold;
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+}
+/********************top end*********************/
+/********************main start*********************/
+#main ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 1px;
+}
+
+#main ul li{
+    width: 100%;
+    line-height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#main ul li .icon{
+    font-size: 30px;
+}
+
+#main ul li .dot{
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+#main ul li:nth-child(1){
+    margin-bottom: 1px;
+}
+
+#main ul li:nth-last-child(1),li:nth-last-child(3){
+    margin-bottom: 1px;
+}
+
+#main ul li .main_right span{
+    font-size: 14px;
+    color: rgb(184,184,184);
+    margin: auto 0;
+}
+
+#main .quit{
+    width: 95%;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(218, 216, 216);
+    color: rgb(99,99,99);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+/********************main end*********************/
+
+
+
+
